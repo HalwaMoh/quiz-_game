@@ -1,3 +1,14 @@
-number=[1,2,3,4,5]
-number.insert(0,6)
-print(number)
+def play_quiz():
+    greet_player(input("Enter your name: "))
+    global score
+    score = 0
+
+    if question_one(input("Question 1: What is the capital of France? A) Paris B) London C) Berlin D) Madrid: ")):
+        update_score(1)
+    print(f"Current score: {score}")
+
+    if question_two(input("Question 2: What is the largest planet in our solar system? A) Mars B) Earth C) Jupiter D) Saturn: ")):
+        update_score(1)
+    print(f"Current score: {score}")
+    print(f"Final score: {score}")
+play_quiz()
